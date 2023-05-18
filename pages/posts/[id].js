@@ -14,6 +14,7 @@ export default function Post({postData}) {
 }
 
 export async function getStaticPaths() {
+    //exemple
     const path = getAllPostIds();
     console.log(path);
     return{
